@@ -1,0 +1,147 @@
+body {
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.search_input {
+    padding: 5px 5px 5px 20px;
+    width: 475px;
+    height: 25px;
+    transition: width 0.5s;
+    font-size:15px;
+}
+
+.form_search {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+.search_bar {
+    float: none;
+}
+
+.google_carree_image {
+    width : 40px;
+    height : 35px;
+    position:absolute;
+    top:5px;
+}
+
+#recherche_google {
+    position: absolute;
+    top: 275px;
+    left: 376px;
+    flex-wrap: nowrap;
+    border-color: lightgrey;
+}
+ 
+.texte_recherche {
+    width: 550px;
+    height: 40px;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    font-size:16px;
+}
+
+.remerciement_coronavirus {
+    position: absolute;
+    left: 470px;
+    top: 410px;
+    color: darkblue;
+}
+
+.bp_recherche {
+    position: absolute;
+    left: 145px;
+    top: 75px;
+    width: 150px;
+    height: 35px;
+    border:none;
+    color:darkslategrey;
+    font-size:14px;
+}
+
+.button_chance {
+    position: absolute;
+    left: 310px;
+    top: 75px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    color: darkslategrey;
+    font-size: 14px;
+}
+
+.google_langue {
+    position:absolute;
+    top:450px;
+    left:590px;
+    font-family:Arial;
+    font-size:13px;
+}
+
+.google_image_partage {
+    position:absolute;
+    left:902px;
+    top:78px;
+}
+
+.english {
+    color:darkblue;
+}
+
+.img_google {
+    position:absolute;
+    top:50px;
+    left:408px;
+}
+
+.premier_bandeau_bas {
+    position: absolute;
+    top: 540px;
+    left:-5px;
+    color: grey;
+    width: 1340px;
+    padding-top:15px;
+    padding-left:30px;
+    padding-bottom:15px;
+    background: #eee9e9;
+    font-size:15px;
+    font-family:Arial;
+}
+
+#deuxieme_bandeau_bas {
+    position: absolute;
+    left:-10px;
+    top: 570px;
+    color: grey;
+    width: 1335px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left:35px;
+    background: #eee9e9;
+    font-size:15px;
+}
+
+.partie_de_droite {
+    position:absolute;
+    left:970px;
+}
+
+#menu_haut {
+    position:absolute;
+    left:1150px;
+    top:0px;
+}
