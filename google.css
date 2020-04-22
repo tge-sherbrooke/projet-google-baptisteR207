@@ -145,3 +145,8 @@ p a:hover {
     left:1150px;
     top:0px;
 }
+
+.bandeau_bas {
+    color: grey;
+    font-family:Arial
+}
